@@ -1,0 +1,144 @@
+/* RESPONSIVE CSS */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    .standard-picture-area img {
+	    margin-left: 0 !important;
+    }
+    .sub-list-text{
+        margin-left: 25px !important;
+    }
+    .pricing-area{
+        margin-top: 350px !important;
+    }
+    .c_review{
+        display: none !important;
+    }
+}
+
+@media only screen
+and (min-width : 321px) {
+    .standard-picture-area img {
+	margin-left: 0 !important;
+    }
+    .pricing-area{
+        margin-top: 350px !important;
+    }
+    .c_review{
+        display: none !important;
+    }
+}
+
+@media only screen
+and (max-width : 320px) {
+    .standard-picture-area img {
+        margin-left: 0 !important;
+    }
+    .sub-list-text{
+        margin-left: 25px !important;
+    }
+    .pricing-area{
+        margin-top: 350px !important;
+    }
+    .c_review{
+        display: none !important;
+    }
+}
+ 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    .pricing-area{
+        margin-top: 0 !important;
+    }
+    .c_review{
+        display: none !important;
+    }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    .pricing-area{
+        margin-top: 0 !important;
+    }
+    .c_review{
+        display: none !important;
+    }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    .pricing-area{
+        margin-top: 0 !important;
+    }
+    .c_review{
+        display: none !important;
+    }
+}
+
+@media only screen
+and (min-width : 1224px) {
+    .pricing-area{
+        margin-top: 0 !important;
+    }
+}
+
+@media only screen
+and (min-width : 1824px) {
+    
+    .pricing-area{
+        margin-top: 0 !important;
+    }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+    .standard-picture-area img {
+        margin-left: 0 !important;
+    }
+    .pricing-area{
+        margin-top: 350px !important;
+    }
+}
+ 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+    .standard-picture-area img {
+        margin-left: 0 !important;
+    }
+
+    .sub-list-text{
+    margin-left: 25px !important;
+    }
+    .pricing-area{
+        margin-top: 350px !important;
+    }
+    .c_review{
+        display: none !important;
+    }
+}
+ 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+    .standard-picture-area img {
+        margin-left: 0 !important;
+    }
+    .sub-list-text{
+        margin-left: 25px !important;
+    }
+    .pricing-area{
+        margin-top: 350px !important;
+    }
+    .c_review{
+        display: none !important;
+    }
+}
