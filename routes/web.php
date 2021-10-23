@@ -19,3 +19,4 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('admin');
 Route::get('/login', [App\Http\Controllers\HomeController::class, 'login'])->name('login');
+Route::get('/register', [App\Http\Controllers\HomeController::class, 'register'])->name('register');
